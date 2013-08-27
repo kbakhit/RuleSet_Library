@@ -1,0 +1,16 @@
+------------------
+Processing tree 0
+Final rules from tree 0:
+Rule 2:
+Stress > 0.0465116
+->  class 0  [63.8%]
+Rule 10:
+LCOMB <= 203
+CUB > 22
+MDS > 23
+NAA <= 0
+->  class 0  [63.0%]
+Rule 12:
+Stress <= 0.0714286
+->  class 1  [96.3%]
+Default class: 1
