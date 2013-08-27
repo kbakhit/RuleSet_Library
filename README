@@ -5,42 +5,34 @@ Copyright (C) 2013  Khaled Bakhit
 
 
 RuleSet Library is free software: you can redistribute it and/or modify
-
 it under the terms of the GNU General Public License as published by
- 
 the Free Software Foundation, either version 3 of the License, or
- 
 (at your option) any later version.
   
 
 RuleSet Library is distributed in the hope that it will be useful,
- 
 but WITHOUT ANY WARRANTY; without even the implied warranty of
- 
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- 
 GNU General Public License for more details.
  
 You should have received a copy of the GNU General Public License
- 
 along with RuleSet Library.  
 
 If not, see <http://www.gnu.org/licenses/>.
 
----------------------------------------------------------------------
 Introduction
 ============
-	Classification models are widely used in different areas such as software quality prediction, computer aided medical diagnosis, bioinformatics, pattern recognition, etc.
+Classification models are widely used in different areas such as software quality prediction, computer aided medical diagnosis, bioinformatics, pattern recognition, etc.
 
-	These can be statistical models or logical models. Logical models are more comprehensible by human experts and hence are preferred over statistical models when the reason for the classification is required.
+These can be statistical models or logical models. Logical models are more comprehensible by human experts and hence are preferred over statistical models when the reason for the classification is required.
 
-	There are many machine learning algorithms that can be used to build such models such as CART, C4.5, J48, etc.  Each of these algorithms computes few performance measures of these models but not all, others do not compute any performance measure at all. Most of these heuristics, although polynomial in time, still suffer from low actual execution time. Most of this time is spent on the evaluation of the objective function which is mostly a linear combination of performance measures of the models. In such cases, the data is abundant and it is not practical to run the heuristics every time the performance measures are required.
+There are many machine learning algorithms that can be used to build such models such as CART, C4.5, J48, etc.  Each of these algorithms computes few performance measures of these models but not all, others do not compute any performance measure at all. Most of these heuristics, although polynomial in time, still suffer from low actual execution time. Most of this time is spent on the evaluation of the objective function which is mostly a linear combination of performance measures of the models. In such cases, the data is abundant and it is not practical to run the heuristics every time the performance measures are required.
 
-	In any case, there is no tool which computes all  performance measures of a classification model. However, this is greatly needed as the field of optimizing such models is a very hectic one currently. However, I fixed this problem and created RuleSet library (in JAVA) that is capable of taking a set of classification models, a set of data files, and computing the performance measures of the models on the data sets in a very efficient and fast way.
+In any case, there is no tool which computes all  performance measures of a classification model. However, this is greatly needed as the field of optimizing such models is a very hectic one currently. However, I fixed this problem and created RuleSet library (in JAVA) that is capable of taking a set of classification models, a set of data files, and computing the performance measures of the models on the data sets in a very efficient and fast way.
 
-	The default calculations are: Correctness (Accuracy), J-Index, Precision, Recall, Sensitivity, and Specificity. However, you can define and add your own formulas that take their values from RuleSet’s confusion matrices.
+The default calculations are: Correctness (Accuracy), J-Index, Precision, Recall, Sensitivity, and Specificity. However, you can define and add your own formulas that take their values from RuleSet’s confusion matrices.
 
-	Classification is used in almost all areas of sciences and engineering. To the best of our knowledge, there is no tool or library that computes the performance measures of rule-based classification models. My library and tools provide this functionality and can easily be upgraded to include further performance measures if needed.
+Classification is used in almost all areas of sciences and engineering. To the best of our knowledge, there is no tool or library that computes the performance measures of rule-based classification models. My library and tools provide this functionality and can easily be upgraded to include further performance measures if needed.
 
 Note
 ====
